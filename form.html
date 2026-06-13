@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buy Chopper</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+<header style="background-color: cyan;">
+    <h1>Do you want to buy this?</h1>
+
+    <a href="">Home</a>
+    <a href="">About Us</a>
+    <a href="">Products</a>
+    <a href="">Contact Us</a>
+
+    <hr>
+</header>
+
+<pre>Then fast buy it now before it goes out of stock. Only one left.</pre>
+
+<img src="chopper.jpeg"
+     alt="This is a picture of Tony Tony Chopper. He is the Straw Hat Pirates' doctor.">
+
+<form action="index.html" method="POST">
+
+    <label for="username">Username</label>
+    <input type="text"
+           id="username"
+           required
+           minlength="6"
+           maxlength="15"
+           placeholder="Zubeir_is_the_best_programmer">
+
+    <br><hr>
+
+    <label for="password">Password</label>
+    <input type="password"
+           id="password"
+           required
+           minlength="8"
+           maxlength="18"
+           placeholder="password">
+
+    <br><hr>
+
+    <label for="email">Email</label>
+    <input type="email"
+           id="email"
+           placeholder="email@gmail.com">
+
+    <br><hr>
+
+    <label for="phone">Phone</label>
+    <input type="tel"
+           id="phone"
+           placeholder="+46-12-345-67-89"
+           required>
+
+    <br><hr>
+
+    <label for="bday">Birthdate</label>
+    <input type="date" id="bday">
+
+    <br><hr>
+
+    <label for="quantity">Quantity</label>
+    <input type="number"
+           id="quantity"
+           min="0"
+           max="1"
+           value="1">
+
+    <br><hr>
+
+    <p>Title</p>
+
+    <label for="Mr">Mr.</label>
+    <input type="radio" id="Mr" name="title">
+
+    <br>
+
+    <label for="Ms">Ms.</label>
+    <input type="radio" id="Ms" name="title">
+
+    <br>
+
+    <label for="PhD">PhD</label>
+    <input type="radio" id="PhD" name="title">
+
+    <br><hr>
+
+    <label for="payment">Payment</label>
+
+    <select id="payment">
+        <option value="visa">Visa</option>
+        <option value="mastercard">Mastercard</option>
+        <option value="giftcard">Gift Card</option>
+        <option value="candy">CANDY</option>
+    </select>
+
+    <br><hr>
+
+    <label for="cardNumber">Card Number</label>
+    <input type="text"
+           id="cardNumber"
+           placeholder="4012 0010 3714 1112">
+
+    <br><hr>
+
+    <label for="comment">Comment</label>
+    <textarea id="comment" rows="3" cols="25"></textarea>
+
+    <br><br>
+
+    <input type="reset">
+    <input type="submit">
+
+</form>
+
+<hr>
+
+<footer style="background-color: cyan;">
+    Author: Zubeir <br>
+    &copy; Copyright Reserved <br>
+    <small>
+        <a href="mailto:zubeir@fake.com">zubeir@fake.com</a>
+    </small>
+</footer>
+
+</body>
+</html>
